@@ -14,7 +14,7 @@ def calculate_iou(box1, box2):
         box1, box2: [x1, y1, x2, y2] format
     
     Returns:
-        float: IoU value
+        float: IoU value 
     """
     # Get intersection coordinates
     x1 = max(box1[0], box2[0])
